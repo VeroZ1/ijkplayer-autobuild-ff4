@@ -26,7 +26,7 @@ jobs:
         uses: nttld/setup-ndk@v1
         id: setup-ndk
         with:
-          ndk-version: r10e
+          ndk-version: r14b
       - name: Check NDK path
         run: |
           echo ${{ steps.setup-ndk.outputs.ndk-path }}
